@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Cotur.Abp.BlobManagement": {
+      "path": "Cotur.Abp.BlobManagement.abpmdl.json"
+    }
+  }
+}

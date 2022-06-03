@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Cotur.Abp.BlobManagement.Domain.Shared": {
+      "path": "src/Cotur.Abp.BlobManagement.Domain.Shared/Cotur.Abp.BlobManagement.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Domain": {
+      "path": "src/Cotur.Abp.BlobManagement.Domain/Cotur.Abp.BlobManagement.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Application.Contracts": {
+      "path": "src/Cotur.Abp.BlobManagement.Application.Contracts/Cotur.Abp.BlobManagement.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Application": {
+      "path": "src/Cotur.Abp.BlobManagement.Application/Cotur.Abp.BlobManagement.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.EntityFrameworkCore": {
+      "path": "src/Cotur.Abp.BlobManagement.EntityFrameworkCore/Cotur.Abp.BlobManagement.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.MongoDB": {
+      "path": "src/Cotur.Abp.BlobManagement.MongoDB/Cotur.Abp.BlobManagement.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.HttpApi": {
+      "path": "src/Cotur.Abp.BlobManagement.HttpApi/Cotur.Abp.BlobManagement.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.HttpApi.Client": {
+      "path": "src/Cotur.Abp.BlobManagement.HttpApi.Client/Cotur.Abp.BlobManagement.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.TestBase": {
+      "path": "test/Cotur.Abp.BlobManagement.TestBase/Cotur.Abp.BlobManagement.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Cotur.Abp.BlobManagement.EntityFrameworkCore.Tests/Cotur.Abp.BlobManagement.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.MongoDB.Tests": {
+      "path": "test/Cotur.Abp.BlobManagement.MongoDB.Tests/Cotur.Abp.BlobManagement.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.Domain.Tests": {
+      "path": "test/Cotur.Abp.BlobManagement.Domain.Tests/Cotur.Abp.BlobManagement.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.Application.Tests": {
+      "path": "test/Cotur.Abp.BlobManagement.Application.Tests/Cotur.Abp.BlobManagement.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.HttpApi.Host": {
+      "path": "host/Cotur.Abp.BlobManagement.HttpApi.Host/Cotur.Abp.BlobManagement.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.Web": {
+      "path": "src/Cotur.Abp.BlobManagement.Web/Cotur.Abp.BlobManagement.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Cotur.Abp.BlobManagement.HttpApi.Client.ConsoleTestApp/Cotur.Abp.BlobManagement.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Cotur.Abp.BlobManagement.Web.Host": {
+      "path": "host/Cotur.Abp.BlobManagement.Web.Host/Cotur.Abp.BlobManagement.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.IdentityServer": {
+      "path": "host/Cotur.Abp.BlobManagement.IdentityServer/Cotur.Abp.BlobManagement.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.Host.Shared": {
+      "path": "host/Cotur.Abp.BlobManagement.Host.Shared/Cotur.Abp.BlobManagement.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.Web.Unified": {
+      "path": "host/Cotur.Abp.BlobManagement.Web.Unified/Cotur.Abp.BlobManagement.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.Blazor": {
+      "path": "src/Cotur.Abp.BlobManagement.Blazor/Cotur.Abp.BlobManagement.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Blazor.Host": {
+      "path": "host/Cotur.Abp.BlobManagement.Blazor.Host/Cotur.Abp.BlobManagement.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Cotur.Abp.BlobManagement.Blazor.Server": {
+      "path": "src/Cotur.Abp.BlobManagement.Blazor.Server/Cotur.Abp.BlobManagement.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Blazor.WebAssembly": {
+      "path": "src/Cotur.Abp.BlobManagement.Blazor.WebAssembly/Cotur.Abp.BlobManagement.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Cotur.Abp.BlobManagement.Blazor.Server.Host": {
+      "path": "host/Cotur.Abp.BlobManagement.Blazor.Server.Host/Cotur.Abp.BlobManagement.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
