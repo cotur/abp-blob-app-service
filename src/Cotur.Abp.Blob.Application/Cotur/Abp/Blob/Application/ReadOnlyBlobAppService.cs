@@ -5,17 +5,26 @@ using Volo.Abp.Content;
 
 namespace Cotur.Abp.Blob.Application
 {
-    public abstract class BlobReadOnlyAppService<TContainer, TOutputStream> : 
+    public abstract class ReadOnlyBlobAppService<TContainer> :
+        ReadOnlyBlobAppService<TContainer, IRemoteStreamContent>
+        where TContainer : class
+    {
+        protected ReadOnlyBlobAppService(IBlobContainer<TContainer> blobContainer) : base(blobContainer)
+        {
+        }
+    }
+
+    public abstract class ReadOnlyBlobAppService<TContainer, TOutputStream> : 
         BlobApplicationService<TContainer>,
         IReadOnlyBlobAppService<TContainer, TOutputStream>
         where TContainer : class
-        where TOutputStream : IRemoteStreamContent, new()
+        where TOutputStream : IRemoteStreamContent
     {
         protected virtual string GetPolicyName { get; set; }
     
         protected virtual string DefaultContentType { get; set; } = "application/octet-stream";
     
-        protected BlobReadOnlyAppService(IBlobContainer<TContainer> blobContainer) : base(blobContainer)
+        protected ReadOnlyBlobAppService(IBlobContainer<TContainer> blobContainer) : base(blobContainer)
         {
         }
     
@@ -32,13 +41,13 @@ namespace Cotur.Abp.Blob.Application
         }
 
 
-        public virtual async Task<TOutputStream> GetAsync(string name)
+        public virtual async Task<TOutputStream> GetAsync(string id)
         {
             await CheckGetPolicyAsync();
 
-            var blob = await GetBlobByNameAsync(name);
+            var blob = await GetBlobByNameAsync(id);
 
-            return await CreateOutputStreamAsync(name, blob);
+            return await CreateOutputStreamAsync(id, blob);
         }
 
         protected virtual async Task CheckGetPolicyAsync()

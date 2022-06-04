@@ -3,10 +3,18 @@ using Volo.Abp.Content;
 
 namespace Cotur.Abp.Blob.Application;
 
+public interface IUpdateBlobAppService<TContainer> :
+    IUpdateBlobAppService<TContainer, IRemoteStreamContent>
+    where TContainer : class
+{
+    
+}
+
+
 public interface IUpdateBlobAppService<TContainer, in TInputStream> : 
     IBlobAppService<TContainer>
     where TContainer : class
-    where TInputStream : IRemoteStreamContent, new()
+    where TInputStream : IRemoteStreamContent
 {
-    Task UpdateAsync(string name, TInputStream inputStream);
+    Task UpdateAsync(string id, TInputStream inputStream);
 }

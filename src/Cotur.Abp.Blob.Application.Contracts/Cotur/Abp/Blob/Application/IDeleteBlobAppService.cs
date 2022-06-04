@@ -6,5 +6,5 @@ public interface IDeleteBlobAppService<TContainer> :
     IBlobAppService<TContainer>
     where TContainer : class
 {
-    Task DeleteAsync(string name);
+    Task DeleteAsync(string id);
 }

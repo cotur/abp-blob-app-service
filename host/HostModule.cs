@@ -1,4 +1,5 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using Cotur.Abp.Blob.Host.BlobContainers;
+using Microsoft.OpenApi.Models;
 using Cotur.Abp.Blob.Host.Data;
 using Cotur.Abp.Blob.Host.Localization;
 using Cotur.Abp.Blob.Host.Menus;
@@ -138,6 +139,11 @@ public class HostModule : AbpModule
         Configure<AbpBlobStoringOptions>(o =>
         {
             o.Containers.Configure<ProfilePictureContainer>(c =>
+            {
+                c.UseDatabase();
+            });
+            
+            o.Containers.Configure<VideoContainer>(c =>
             {
                 c.UseDatabase();
             });
