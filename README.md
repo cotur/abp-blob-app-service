@@ -19,3 +19,8 @@ This module's projects are not published yet as NuGet packages, so for now, you 
 
 1. Example [ProfilePictureAppService.cs](https://github.com/cotur/abp-blob-app-service/blob/2283c2c9d014fa1efc007041000892ac3a282682/host/Services/ProfilePictureAppService.cs)
 2. Example [VideoAppService.cs](https://github.com/cotur/abp-blob-app-service/blob/2283c2c9d014fa1efc007041000892ac3a282682/host/Services/VideoAppService.cs)
+
+## Roadmap
+
+- [ ] Extended input validation
+- [ ] Extended output manipulation
