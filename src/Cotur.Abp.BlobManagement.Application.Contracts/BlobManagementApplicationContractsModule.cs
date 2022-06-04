@@ -2,6 +2,7 @@
 using Volo.Abp.Application;
 using Volo.Abp.Modularity;
 using Volo.Abp.Authorization;
+using Volo.Abp.BlobStoring;
 using Volo.Abp.Localization;
 using Volo.Abp.Localization.ExceptionHandling;
 using Volo.Abp.Validation.Localization;
@@ -11,7 +12,8 @@ namespace Cotur.Abp.BlobManagement;
 
 [DependsOn(
     typeof(AbpDddApplicationContractsModule),
-    typeof(AbpAuthorizationModule)
+    typeof(AbpAuthorizationModule),
+    typeof(AbpBlobStoringModule)
     )]
 public class BlobManagementApplicationContractsModule : AbpModule
 {
