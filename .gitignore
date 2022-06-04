@@ -252,11 +252,7 @@ paket-files/
 *.sln.iml
 
 # BlobManagement
-host/Cotur.Abp.BlobManagement.IdentityServer/Logs/logs.txt
-host/Cotur.Abp.BlobManagement.HttpApi.Host/Logs/logs.txt
-host/Cotur.Abp.BlobManagement.Web.Host/Logs/logs.txt
-host/Cotur.Abp.BlobManagement.Web.Unified/Logs/logs.txt
-host/Cotur.Abp.BlobManagement.Blazor.Server.Host/Logs/logs.txt
+host/Logs/logs.txt
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
